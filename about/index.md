@@ -8,10 +8,8 @@ class: page-template
 subclass: 'post page'
 ---
 
-Ghost is professional publishing platform designed for modern journalism. This is a demo site of a basic Ghost install to give you a general sense of what a new Ghost site looks like when set up for the first time.
+__Be A Voicec, not an Echo__ is a professional blog to share knowledge related to Data Science, Machine/Deep Learning, Big Data, Security, Cryptography and Development related to all of them. Since it is a rather small project, most of the ideas an opinions might be a bit biased, but they are all grounded on experience.
 
-> If you'd like to set up a site like this for yourself, head over to [Ghost.org](https://ghost.org/) and start a free 14 day trial to give Ghost a try!
+> If you'd like to contribute and share ideas beyond making a few comments, feel free to [contact me](https://ibarrond.github.io/#contact)
 
-If you're a developer: Ghost is a completely open source (MIT) Node.js application built on a JSON API with an Ember.js admin client. It works with MySQL and SQLite, and is publicly available [on Github](https://github.com/TryGhost/ghost).
-
-If you need help with using Ghost, you'll find a ton of useful articles on [our knowledgebase](https://help.ghost.org/), as well as extensive [developer documentation](https://docs.ghost.org/).
+If you're an engineer yourself but you feel discouraged to share your knowledge, please reconsider! It is by first sharing what we already possess that we get to expand our horizons. There are many good alternatives to having a small blog like this one (LinkedIn posts, Medium, DZone to name a few). Nevertheless, if you like the style and wish to reproduce it yourself, have a look at the [source code](https://github.com/ibarrond/BeAVoice) or check out the [original template](https://github.com/jekyller/jasper2).
