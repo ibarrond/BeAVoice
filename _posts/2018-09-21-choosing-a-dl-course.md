@@ -1,10 +1,10 @@
 ---
 layout: post
 current: post
-cover:  assets/images/intro.jpg
+cover:  post_choosing_mooc.jpg
 navigation: True
 title: Choosing a MOOC on Deep Learning
-date: 2017-07-27 10:00:00
+date: 2018-09-21 10:00:00
 tags: [Deep Learning]
 class: post-template
 subclass: 'post tag-deep-learning'
