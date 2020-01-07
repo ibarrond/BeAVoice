@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
+  <link href="/BeAVoice/tag/deep-learning/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/BeAVoice/" rel="alternate" type="text/html" />
+  <updated>2020-01-07T14:40:45+00:00</updated>
+  <id>/BeAVoice/tag/deep-learning/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">Be A Voice, not an Echo | </title>
+  
+
+  
+    <subtitle>Sharing engineering knowhow</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Overfitting must be avoided</title>
+      <link href="/BeAVoice/avoiding-overfitting" rel="alternate" type="text/html" title="Overfitting must be avoided" />
+      <published>2018-09-29T08:00:00+00:00</published>
+      <updated>2018-09-29T08:00:00+00:00</updated>
+      <id>/BeAVoice/avoiding-overfitting</id>
+      <content type="html" xml:base="/BeAVoice/avoiding-overfitting">&lt;p&gt;Overfitting is one of the most common issues you might find when training a Deep Learning algorithm. Here are some strategies on how to overcome it (many more available out there!).&lt;/p&gt;
+
+&lt;p&gt;In short, you need to increase the generalization of your network. Here are some ways to do so:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Get more training data (expensive? not always possible/useful?)&lt;/li&gt;
+  &lt;li&gt;Reduce the capacity (degrees of liberty or complexity) of the network (smaller achitecture for a not so big problem/dataset). Alternatively one can use architectures that generalize quite well, such as the inverted convolutional pyramid comonly found in image classification.&lt;/li&gt;
+  &lt;li&gt;Add weight regularization.&lt;/li&gt;
+  &lt;li&gt;Add dropout.&lt;/li&gt;
+  &lt;li&gt;Data augmentation.&lt;/li&gt;
+  &lt;li&gt;Batch Normalization. From the original paper: &lt;code class=&quot;highlighter-rouge&quot;&gt;Batch normalization reduces the dependence of your network to your weight initialization. Adds regularization into your network.&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Modify learning rate and/or batch size.&lt;/li&gt;
+  &lt;li&gt;Read this article, understand it an put it in practice (this is good stuff, really): https://arxiv.org/pdf/1803.09820.pdf&lt;/li&gt;
+&lt;/ol&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>ibarrond</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="Deep Learning" />
+      
+
+      
+        <summary type="html">Overfitting is one of the most common issues you might find when training a Deep Learning algorithm. Here are some strategies on how to overcome it (many more available out there!).</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Choosing a MOOC on Deep Learning</title>
+      <link href="/BeAVoice/choosing-a-dl-course" rel="alternate" type="text/html" title="Choosing a MOOC on Deep Learning" />
+      <published>2018-09-21T10:00:00+00:00</published>
+      <updated>2018-09-21T10:00:00+00:00</updated>
+      <id>/BeAVoice/choosing-a-dl-course</id>
+      <content type="html" xml:base="/BeAVoice/choosing-a-dl-course">&lt;p&gt;&lt;em&gt;TL;DR  –&amp;gt; https://course.fast.ai/ is the best Deep Learning course out there if you ask me, and maybe even if you don’t.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;They reproduce faster than rabbits do. They all claim to be the one and only, the best, the one that contains all the information you’ll need to succeed as a Data Scientist / Machine Learning Engineer. I’m talking about MOOCs, open online courses, particularly focused to teaching you Deep Learning.&lt;/p&gt;
+
+&lt;p&gt;Since the highly successful course of Machine Learning by Andrew NG (Indeed the first course ever in Coursera), there have been many, many (I cannot stress how many) attempts by multiple platforms, institutions and organizations to launch their own Deep Learning “From Zero to Hero” courses. You’ll see a bunch of them if you go to Coursera, EdX, Udemy, analyticsvidhya, Stanford online, etc…&lt;/p&gt;
+
+&lt;p&gt;Now, I don’t mean that they are all bad. In fact I have first hand followed several in Coursera and EdX and I’m quite happy with the result. But, since I can allow myself to present my biased opinion, I want to promote one that I consider to be particularly good. It is FREE, no ads, no option to buy paid certificates, ABSOLUTELY NO MONETIZATION involved. It is just knowledge sharing for the sake of sharing knowledge. I believe this is one of the keys to its success.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The course itself is &lt;a href=&quot;http://course.fast.ai/&quot;&gt;http://course.fast.ai/&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This course is linked to the &lt;a href=&quot;https://www.fast.ai/&quot;&gt;fast.ai&lt;/a&gt; blog, also highly recommended. Taught by Jeremy Howard (the boss in Kaggle, professot in University of San Francisco, long list of etc..), there are two aspects that I particularly love about this course:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Simplify Machine Learning wonderfully&lt;/strong&gt;: their main goal is to demistify Deep Learning and render it accessible to the average Joe with some Computer Science background. Looking for slides full of math and in-depth understanding of the non convex optimization problem you are solving with the regularized cost function someone handcrafted? There are links to more complex literature, and you can find it easily in other books/MOOCs/resources, but they stick to hands-on, problem solving experience while still delivering some outstanding insights on DL.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Stay up to date with State of The Art&lt;/strong&gt;: New paper presenting a novel technique with somewhat decent reprecusion? They try it, test it and if the technique holds up the results in multiple cases, they add it to their awesome &lt;code class=&quot;highlighter-rouge&quot;&gt;fastai&lt;/code&gt; library, built on top of PyTorch as a surprisingly helpful wrapper. The team behind this has already participated in international contest and even beated Google’s almighty power with some cleverer algorithms. Why is this good? Well, when you do something like &lt;code class=&quot;highlighter-rouge&quot;&gt;model.train()&lt;/code&gt; and the training is performed with complex yet seemingly powerful strategies under the hood you truly thank the blessed souls that decyphered it from a somewaht obscure paper, tested it, benchmarked it and put it inside the library to be used BY DEFAULT.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Well, that’s it! I encourage you to have a look at this yearly updated course if you haven’t yet. NOTE: Noone is making money out of this recommendation!&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>ibarrond</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="Deep Learning" />
+      
+
+      
+        <summary type="html">TL;DR –&amp;gt; https://course.fast.ai/ is the best Deep Learning course out there if you ask me, and maybe even if you don’t.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
